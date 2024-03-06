@@ -23,18 +23,7 @@ const Footer = () => {
         ))}
       </div>
       <div>
-        <h3>{CONTACT.city}</h3>
-        {CONTACT.contacts.map((contact) => {
-          return (
-            <div className="flex items-center">
-              <img href={contact.icon} alt="Icon" />
-              <div className="flex-row">
-                <p>{contact.line1}</p>
-                <p>{contact.line2}</p>
-              </div>
-            </div>
-          );
-        })}
+        <h3 className="font-bold text-secondary">Get in Touch</h3>
       </div>
     </footer>
   );
