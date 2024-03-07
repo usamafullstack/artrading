@@ -5,6 +5,7 @@ module.exports = {
       colors: {
         primary: "#17395C",
         secondary: "#FFC303",
+        tertiary: "#092440",
         gradient1: "#378CD7",
         gradient2: "#C3634E",
         hover: "#EA592E",
