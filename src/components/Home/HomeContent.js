@@ -1,16 +1,20 @@
 import React from "react";
+import { ReactComponent as HomeHero } from "../../assets/home-hero.svg";
+import { Button } from "../Button";
 
 const HomeContent = () => {
   return (
-    <div>
-      <div>
-        <h1>We Make Sure People Will Remember It.</h1>
+    <div className="bg-primary flex items-center justify-around pt-16">
+      <div className="flex flex-col gap-4">
+        <p className="text-white font-bold text-[4.5rem]">
+          Foremost <br /> Export / Import & <br /> Relief Suppliers
+        </p>
+        <Button
+          text={"Learn More"}
+          classname="w-fit"
+        />
       </div>
-      <div>
-        <h4>
-          One thing remains constant in today's dynamic global business market.
-        </h4>
-      </div>
+      <HomeHero />
     </div>
   );
 };

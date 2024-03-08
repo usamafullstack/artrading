@@ -28,4 +28,16 @@ const SERVICES = [
   "Solar Energy",
 ];
 
-export { CONTACT, SERVICES };
+const HOME_CARDS = [
+  {
+    text: "Export & Import",
+    icon: "shipping",
+  },
+  { text: "General Order", icon: "orders" },
+  { text: "Manpower", icon: "manpower" },
+  { text: "Interior Design", icon: "design" },
+  { text: "Maintenance", icon: "maintenance" },
+  { text: "Solar Energy", icon: "energy" },
+];
+
+export { CONTACT, SERVICES, HOME_CARDS };

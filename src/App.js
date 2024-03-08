@@ -1,17 +1,13 @@
 import React from "react";
 import { Home } from "./views";
-import { Layout, Button, Navbar, Footer, Card } from "./components";
-import { Cards } from "./components/Home";
+import { Layout, Navbar, Footer } from "./components";
 
 const App = () => {
   return (
     <div>
-      {/* <Navbar /> */}
-      {/* <Footer /> */}
-      <Button text="Contact Us" />
-      <Button text="Learn More" />
+      <Navbar />
       <Home />
-      <Cards />
+      <Footer />
     </div>
   );
 };
