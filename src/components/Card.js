@@ -1,9 +1,10 @@
 import React from "react";
-
-const Card = () => {
+const Card = ({ text, icon }) => {
   return (
-    <div className="grid grid-cols-2 pt-8 w-1/4 ">
-      <div class="flex flex-col w-full p-6 items-center gap-8 rounded-md border-[1px] bg-tertiary text-white"></div>
+    <div>
+      <div className="w-72 py-24 text-white rounded-3xl bg-tertiary my-8 ">
+        {text} {icon}
+      </div>
     </div>
   );
 };

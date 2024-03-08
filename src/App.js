@@ -1,6 +1,7 @@
 import React from "react";
 import { Home } from "./views";
 import { Layout, Button, Navbar, Footer, Card } from "./components";
+import { Cards } from "./components/Home";
 
 const App = () => {
   return (
@@ -10,7 +11,7 @@ const App = () => {
       <Button text="Contact Us" />
       <Button text="Learn More" />
       <Home />
-      <Card />
+      <Cards />
     </div>
   );
 };
