@@ -1,8 +1,8 @@
 import React from "react";
-import { ReactComponent as HomeHero } from "../../assets/home-hero.svg";
+import { ReactComponent as HomeHeroImage } from "../../assets/home-hero.svg";
 import { Button } from "../Button";
 
-const HomeContent = () => {
+const HomeHero = () => {
   return (
     <div className="bg-primary flex items-center justify-around pt-16">
       <div className="flex flex-col gap-4">
@@ -14,9 +14,9 @@ const HomeContent = () => {
           classname="w-fit"
         />
       </div>
-      <HomeHero />
+      <HomeHeroImage />
     </div>
   );
 };
 
-export { HomeContent };
+export { HomeHero };
