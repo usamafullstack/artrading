@@ -40,4 +40,12 @@ const HOME_CARDS = [
   { text: "Solar Energy", icon: "energy" },
 ];
 
-export { CONTACT, SERVICES, HOME_CARDS };
+const ROUTING_OPTIONS = [
+  { name: "Home", route: "/" },
+  { name: "About", route: "/about" },
+  { name: "Services", route: "/services" },
+  { name: "Products", route: "/products" },
+  { name: "Contact", route: "/contact" },
+];
+
+export { CONTACT, SERVICES, HOME_CARDS, ROUTING_OPTIONS };
