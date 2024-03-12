@@ -12,6 +12,7 @@ const HomeHero = () => {
         <Button
           text={"Learn More"}
           classname="w-fit"
+          navigateTo={"about"}
         />
       </div>
       <HomeHeroImage />

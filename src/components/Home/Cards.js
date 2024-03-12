@@ -1,6 +1,7 @@
 import React from "react";
 import { Card } from "../Card";
 import { HOME_CARDS } from "../../const/data";
+import { Button } from "../Button";
 
 const Cards = ({ isHomePage }) => {
   return (
@@ -16,12 +17,12 @@ const Cards = ({ isHomePage }) => {
             {isHomePage ? "Industries" : "Our Services"}
           </p>
         </div>
-        <p className="text-white">
+        <p className="text-white font-bold text-6xl mt-6">
           These Are The <span className="text-secondary">Services</span> <br />{" "}
           We Serve To You
         </p>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 mt-10 mb-24 mx-20">
+      <div className="grid grid-cols-2 md:grid-cols-3 my-10 mx-20">
         {HOME_CARDS.map((cardData) => (
           <Card
             text={cardData.text}
@@ -29,6 +30,13 @@ const Cards = ({ isHomePage }) => {
             classname={"my-5"}
           />
         ))}
+      </div>
+      <div className="flex justify-center ">
+        <Button
+          text="See all services we provide"
+          classname={"w-fit font-bold text-base"}
+          navigateTo={"services"}
+        />
       </div>
     </section>
   );

@@ -34,6 +34,7 @@ const AboutSection = ({ isHome, button, classname }) => {
           <Button
             text="Know More"
             classname="w-fit font-bold text-base"
+            navigateTo={"about"}
           />
         )}
       </div>

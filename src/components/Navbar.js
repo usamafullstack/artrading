@@ -24,7 +24,7 @@ const Navbar = () => {
                   : "text-white"
               }`}
               onClick={() => navigate(`${option.route}`)}>
-              {option.name}
+              {option.name}asdf
             </li>
           );
         })}
