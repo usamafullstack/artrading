@@ -13,7 +13,7 @@ const PartnersSection = () => {
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-1">
             <img
-              src={require("../../assets/pointer.png")}
+              src={require("../../assets/png/pointer.png")}
               height={20}
               width={20}
             />
@@ -29,7 +29,7 @@ const PartnersSection = () => {
             cordial working relationships with some of the NGOs as here under:
           </p>
           <img
-            src={require("../../assets/companies.png")}
+            src={require("../../assets/png/companies.png")}
             width={500}
             height={500}
           />
@@ -37,7 +37,7 @@ const PartnersSection = () => {
       </div>
       <div>
         <img
-          src={require("../../assets/partners-section.png")}
+          src={require("../../assets/png/partners-section.png")}
           width={300}
           height={300}
         />

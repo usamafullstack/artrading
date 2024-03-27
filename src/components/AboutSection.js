@@ -4,17 +4,19 @@ import { Button } from "./Button";
 const AboutSection = ({ isHome, button, classname }) => {
   return (
     <section className={`grid grid-flow-col gap-16 px-16 my-28 ${classname}`}>
-      <div className="w-full h-full">
+      <div className={`w-full h-full ${isHome && "order-2"}`}>
         <img
-          src={require("../assets/about-image.png")}
-          height={500}
-          width={500}
+          src={require(!isHome
+            ? "../assets/png/about-image.png"
+            : "../assets/png/about-image-2.png")}
+          height={900}
+          width={900}
         />
       </div>
-      <div className="w-full h-full mt-8 flex flex-col gap-4">
+      <div className="w-full h-full mt-8 flex flex-col gap-8">
         <div className="flex items-center gap-1">
           <img
-            src={require("../assets/pointer.png")}
+            src={require("../assets/png/pointer.png")}
             height={20}
             width={20}
           />

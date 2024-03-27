@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as HomeHeroImage } from "../../assets/home-hero.svg";
+import { ReactComponent as HomeHeroImage } from "../../assets/svg/home-hero.svg";
 import { Button } from "../Button";
 
 const HomeHero = () => {

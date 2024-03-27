@@ -29,8 +29,18 @@ const Footer = () => {
         <div>
           <h3 className="font-bold text-secondary">Get in Touch</h3>
           <Input placeholder={"Enter your name *"} />
-          <Input placeholder={"Enter your name *"} />
-          <Input placeholder={"Enter your name *"} />
+          <Input
+            placeholder={"Enter a valid email address *"}
+            type={"email"}
+          />
+          <textarea
+            placeholder={"Type Your Message here"}
+            className="w-96 bg-transparent border-white border-x-[1px] border-y-[1px] px-4 py-1 my-2 block"
+            rows={6}
+          />
+          <button className="mt-2 text-white bg-[#3d3d3d] px-7 uppercase font-bold py-2">
+            Submit
+          </button>
         </div>
       </footer>
     </>

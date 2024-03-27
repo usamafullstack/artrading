@@ -27,7 +27,7 @@ const NextSteps = () => {
       </div>
       <div className="col-span-7 mt-16">
         <img
-          src={require("./../assets/next-steps.png")}
+          src={require("../assets/png/next-steps.png")}
           width={900}
           height={600}
         />
