@@ -1,12 +1,10 @@
 import React from "react";
-import { Home } from "./views";
-import { Layout, Button, Navbar, Footer } from "./components";
+import { Outlet } from "react-router-dom";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Footer />
+      <Outlet />
     </div>
   );
 };
