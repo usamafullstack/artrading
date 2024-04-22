@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
-import { Button } from "./Button";
-import { ROUTING_OPTIONS } from "../const/data";
+import { Button } from "../Button";
+import { ROUTING_OPTIONS } from "../../const/data";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -12,9 +12,11 @@ const Navbar = () => {
     <nav className="flex items-center justify-between px-10 mt-5 bg-primary relative">
       <img
         alt="Lint Fix"
-        src={require("../assets/png/logo.jpeg")}
+        className="cursor-pointer"
+        src={require("../../assets/png/logo.jpeg")}
         width={100}
         height={100}
+        onClick={() => navigate("/")}
       />
       <div className="flex gap-20 ">
         {ROUTING_OPTIONS.map((option) => {
@@ -42,27 +44,25 @@ const Navbar = () => {
       </div>
       {dropdown && (
         <section
-          className="bg-white text-black h-48 w-48 absolute right-[515px] top-16 flex flex-col justify-evenly p-2 rounded-3xl"
+          className="bg-white text-black h-32 w-48 absolute right-[435px] top-16 flex flex-col justify-evenly p-2 rounded-3xl"
           onMouseOver={() => showDropdown(true)}
           onMouseOut={() => showDropdown(false)}>
-          <div
-            className="cursor-pointer rounded-full hover:text-hover hover:font-bold w-full h-full text-center pt-5 "
-            onClick={() => navigate("/products/food-items")}>
+          <a
+            className="rounded-full hover:text-hover hover:font-bold w-full h-full text-center pt-5"
+            href={`${window.location.protocol}//${window.location.host}/products/food-items`}>
             Food Items
-          </div>
-          <div
-            className="cursor-pointer hover:text-hover hover:font-bold w-full h-full text-center pt-5"
-            onClick={() => navigate("/products/leather-products")}>
-            Leather Products
-          </div>
-          <div
-            className="cursor-pointer hover:text-hover hover:font-bold w-full h-full text-center pt-5"
-            onClick={() => navigate("/products/hospital-items")}>
-            Hospital Items
-          </div>
+          </a>
+          <a
+            className="rounded-full hover:text-hover hover:font-bold w-full h-full text-center pt-5"
+            href={`${window.location.protocol}//${window.location.host}/products/nonfood-items`}>
+            Non-Food Items
+          </a>
         </section>
       )}
-      <Button text={"Contact Us"} />
+      <Button
+        text={"Contact Us"}
+        navigateTo={"contact"}
+      />
     </nav>
   );
 };

@@ -11,10 +11,10 @@ const NextSteps = () => {
           size={90}
           className={"transform rotate-6 ml-8 mb-4"}
         />
-        <p className="text-white font-bold text-6xl mt-6">
+        <p className="text-white font-bold text-5xl mt-6">
           Next <span className="text-secondary">Steps</span>
         </p>
-        <p className="text-white text-xl">
+        <p className="text-white">
           We are the foremost company having a detailed background as
           Manufacturers and Emergency Relief Suppliers all over the world.
         </p>

@@ -32,7 +32,7 @@ const BusinessProfessionals = () => {
           you from the very beginning
         </p>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 my-10 mx-20">
+      <div className="grid grid-cols-2 lg:grid-cols-3 my-10">
         {[1, 2, 3, 4, 5, 6, 7].map((x, i) => (
           <ImageCard
             image={x}

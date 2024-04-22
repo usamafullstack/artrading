@@ -31,13 +31,32 @@ export const SERVICES = [
 export const HOME_CARDS = [
   {
     text: "Export & Import",
-    icon: "shipping",
+    subText:
+      "Empower your global trade with seamless import and export solutions tailored to your needs. Streamline logistics, minimize costs, and maximize efficiency with our trusted expertise.",
+    image:
+      "https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   },
-  { text: "General Order", icon: "orders" },
-  { text: "Manpower", icon: "manpower" },
-  { text: "Interior Design", icon: "design" },
-  { text: "Maintenance", icon: "maintenance" },
-  { text: "Solar Energy", icon: "energy" },
+  {
+    text: "General Order",
+    subText:
+      "Elevate your supply chain efficiency with comprehensive General Order services. From sourcing to delivery, ensure seamless procurement and distribution tailored to your unique requirements.",
+    image:
+      "https://plus.unsplash.com/premium_photo-1681492228360-7665972aa5ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    text: "Manpower",
+    subText:
+      "Unlock workforce potential with our tailored Manpower solutions. From recruitment to deployment, optimize staffing needs and drive productivity with our expertise.",
+    image:
+      "https://images.pexels.com/photos/159358/construction-site-build-construction-work-159358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    text: "Textile",
+    subText:
+      "Enhance your textile business for success. From sportswear to leather goods, we streamline your sourcing and manufacturing, ensuring quality and efficiency for global market competitiveness.",
+    image:
+      "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  },
 ];
 
 export const ROUTING_OPTIONS = [
@@ -47,6 +66,8 @@ export const ROUTING_OPTIONS = [
   { name: "Products", route: "/products" },
   { name: "Contact", route: "/contact" },
 ];
+
+// 1:14:40
 
 export const ITEMS = {
   food: [
@@ -75,9 +96,9 @@ export const ITEMS = {
       subHeader:
         "Salt is a mineral composed primarily of sodium chloride. When used in food, especially in granulated form, it is more formally called table salt.",
       images: [
-        "https://source.unsplash.com/random/353x353/?salt&sig=1",
-        "https://source.unsplash.com/random/353x353/?salt&sig=2",
-        "https://source.unsplash.com/random/353x353/?salt&sig=3",
+        "https://user-assets.sharetribe.com/images/listing_images/images/5742966/medium/whatsapp_image_2023-11-11_at_22_57_52__1_.jpeg?1710231858",
+        "https://bhandarifoods.com/wp-content/uploads/2022/02/salt-shaker.jpg",
+        "https://aabantechs.com/wp-content/uploads/2023/01/types-of-salt-table-600x400-1-300x300-1.jpg",
       ],
     },
     {
@@ -95,9 +116,9 @@ export const ITEMS = {
       subHeader:
         "The salt, which often has a pinkish tint due to trace minerals, is primarily used as a food additive to replace refined table salt, but is also used for cooking and food presentation, decorative lamps, and spa treatments.",
       images: [
-        "https://source.unsplash.com/random/353x353/?pink+salt&sig=1",
-        "https://source.unsplash.com/random/353x353/?pink+salt&sig=2",
-        "https://source.unsplash.com/random/353x353/?pink+salt&sig=3",
+        "https://healthwire.pk/wp-content/uploads/2022/09/pink-salt-benefits.jpg",
+        "https://www.pinksaltdecor.com/wp-content/themes/pink-salt/img/trusted-salt-company.png",
+        "https://www.zinc-citrate.com/files/2023/04/flat-lay-himalayan-salt-bowl-768x512.jpg",
       ],
     },
     {
@@ -111,6 +132,26 @@ export const ITEMS = {
       ],
     },
     {
+      header: "Potatoes",
+      subHeader:
+        "Potatoes are a popular food worldwide, especially in places like Asia and Africa. They're loved for their versatility and are a key part of many people's diets.",
+      images: [
+        "https://source.unsplash.com/random/353x353/?potatoes&sig=1",
+        "https://source.unsplash.com/random/353x353/?potatoes&sig=2",
+        "https://source.unsplash.com/random/353x353/?potatoes&sig=3",
+      ],
+    },
+    {
+      header: "Citrus",
+      subHeader:
+        "Oranges and other citrus fruits are eaten by many people all around the world, especially in Asia and Africa. They're loved for their delicious flavor and are an important part of many people's diets.",
+      images: [
+        "https://source.unsplash.com/random/353x353/?oranges&sig=1",
+        "https://source.unsplash.com/random/353x353/?oranges&sig=2",
+        "https://source.unsplash.com/random/353x353/?oranges&sig=3",
+      ],
+    },
+    {
       header: "Mango",
       images: [
         "https://source.unsplash.com/random/353x353/?mango&sig=1",
@@ -121,21 +162,21 @@ export const ITEMS = {
     {
       header: "Sesamum Seeds",
       images: [
-        "https://source.unsplash.com/random/353x353/?sesamum+seeds&sig=1",
-        "https://source.unsplash.com/random/353x353/?sesamum+seeds&sig=2",
-        "https://source.unsplash.com/random/353x353/?sesamum+seeds&sig=3",
+        "https://www.thecookingfoodie.com/Images/Site/Pages/a8efcc35-5cfa-42d9-acf1-94e69f7b0c9b.png",
+        "https://chamagak.com/images/ss1.jpg",
+        "https://cdn.shopify.com/s/files/1/0017/5839/6473/files/sesame-g6ebe652b9_1920_11zon.jpg?v=1679566243",
       ],
     },
     {
       header: "Sugarcane",
       images: [
-        "https://source.unsplash.com/random/353x353/?sugarcane&sig=1",
-        "https://source.unsplash.com/random/353x353/?sugarcane&sig=2",
-        "https://source.unsplash.com/random/353x353/?sugarcane&sig=3",
+        "https://arynews.tv/wp-content/uploads/2018/01/sugarcane.jpg",
+        "https://happyeconews.com/wp-content/uploads/2022/03/sugarcane-gcb8eada03_1920.jpg",
+        "https://assets-global.website-files.com/626beb0eafa0c56a0b38bfeb/62d6708091cf843fff7f059f_1416x1808%20(4).webp",
       ],
     },
   ],
-  leather: [
+  nonfood: [
     {
       header: "Leather Handbags",
       images: [
@@ -198,64 +239,6 @@ export const ITEMS = {
         "https://source.unsplash.com/random/353x353/?leather+backpack&sig=1",
         "https://source.unsplash.com/random/353x353/?leather+backpack&sig=2",
         "https://source.unsplash.com/random/353x353/?leather+backpack&sig=3",
-      ],
-    },
-  ],
-  hospital: [
-    {
-      header: "Stretchers",
-      images: [
-        "https://source.unsplash.com/random/353x353/?stretchers&sig=1",
-        "https://source.unsplash.com/random/353x353/?stretchers&sig=2",
-        "https://source.unsplash.com/random/353x353/?stretchers&sig=3",
-      ],
-    },
-    {
-      header: "Anaesthesia Machines",
-      images: [
-        "https://source.unsplash.com/random/353x353/?anesthesia+machines&sig=1",
-        "https://source.unsplash.com/random/353x353/?anesthesia+machines&sig=2",
-        "https://source.unsplash.com/random/353x353/?anesthesia+machines&sig=3",
-      ],
-    },
-    {
-      header: "Surgical Items",
-      images: [
-        "https://source.unsplash.com/random/353x353/?surgical+items&sig=1",
-        "https://source.unsplash.com/random/353x353/?surgical+items&sig=2",
-        "https://source.unsplash.com/random/353x353/?surgical+items&sig=3",
-      ],
-    },
-    {
-      header: "ECG Machines",
-      images: [
-        "https://source.unsplash.com/random/353x353/?ecg&sig=1",
-        "https://source.unsplash.com/random/353x353/?ecg&sig=2",
-        "https://source.unsplash.com/random/353x353/?ecg&sig=3",
-      ],
-    },
-    {
-      header: "Sterlizers",
-      images: [
-        "https://source.unsplash.com/random/353x353/?sterilizers&sig=1",
-        "https://source.unsplash.com/random/353x353/?sterilizers&sig=2",
-        "https://source.unsplash.com/random/353x353/?sterilizers&sig=3",
-      ],
-    },
-    {
-      header: "Surgical Lights",
-      images: [
-        "https://images.pexels.com/photos/7108113/pexels-photo-7108113.jpeg?auto=compress&cs=tinysrgb&w=353",
-        "https://images.pexels.com/photos/18798923/pexels-photo-18798923/free-photo-of-a-surgeon-during-a-surgery.jpeg?auto=compress&cs=tinysrgb&w=353",
-        "https://images.pexels.com/photos/14829651/pexels-photo-14829651.jpeg?auto=compress&cs=tinysrgb&w=353",
-      ],
-    },
-    {
-      header: "Bed Sheets",
-      images: [
-        "https://source.unsplash.com/random/353x353/?bedsheets&sig=1",
-        "https://source.unsplash.com/random/353x353/?bedsheets&sig=2",
-        "https://source.unsplash.com/random/353x353/?bedsheets&sig=3",
       ],
     },
   ],

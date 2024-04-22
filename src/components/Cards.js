@@ -5,7 +5,7 @@ import { Button } from "./Button";
 
 const Cards = ({ isHomePage }) => {
   return (
-    <section className="bg-primary py-10">
+    <section className="bg-primary py-10 mx-10">
       <div className="text-center">
         <div className="flex items-center gap-1 justify-center">
           <img
@@ -23,11 +23,13 @@ const Cards = ({ isHomePage }) => {
           We Serve To You
         </p>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 my-10 mx-20">
-        {HOME_CARDS.map((cardData) => (
+      <div className="my-10 flex items-center flex-col">
+        {HOME_CARDS.map((cardData, i) => (
           <Card
+            order={i}
             text={cardData.text}
-            icon={cardData.icon}
+            subText={cardData.subText}
+            image={cardData.image}
             classname={"my-5"}
           />
         ))}

@@ -15,6 +15,7 @@ const Icon = ({
   const IconSVG = Icons[name];
   return (
     <IconSVG
+      onClick={onClick}
       className={className}
       color={color}
       size={size}

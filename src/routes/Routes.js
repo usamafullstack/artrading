@@ -40,15 +40,7 @@ const MainRoutes = () => {
         }
       />
       <Route
-        path="/products/leather-products"
-        element={
-          <Layout>
-            <Products />
-          </Layout>
-        }
-      />
-      <Route
-        path="/products/hospital-items"
+        path="/products/nonfood-items"
         element={
           <Layout>
             <Products />
