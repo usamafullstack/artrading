@@ -15,7 +15,7 @@ const Card = ({ order, text, subText, image, classname }) => {
               src={image}
               height={400}
               width={500}
-              alt="Card Image"
+              alt="Lint Fix"
               className="rounded-2xl"
             />
           </div>
@@ -27,7 +27,7 @@ const Card = ({ order, text, subText, image, classname }) => {
               src={image}
               height={400}
               width={500}
-              alt="Card Image"
+              alt="Lint Fix"
               className="rounded-2xl"
             />
           </div>
