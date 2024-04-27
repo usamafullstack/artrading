@@ -43,20 +43,20 @@ const MobileNav = ({ closeNav }) => {
                     <div className="flex flex-col mx-10 pt-6 gap-5 -mb-10">
                       <a
                         className={`${
-                          location.pathname === "/products/food-items"
+                          location.pathname === "/food-items"
                             ? "text-secondary"
                             : "text-white"
                         }`}
-                        href={`${window.location.protocol}//${window.location.host}/products?items=food`}>
+                        href={`${window.location.protocol}//${window.location.host}/food-items`}>
                         Food Items
                       </a>
                       <a
                         className={`${
-                          location.pathname === "/products/nonfood-items"
+                          location.pathname === "/nonfood-items"
                             ? "text-secondary"
                             : "text-white"
                         }`}
-                        href={`${window.location.protocol}//${window.location.host}/products?items=nonfood`}>
+                        href={`${window.location.protocol}//${window.location.host}/nonfood-items`}>
                         Non-Food Items
                       </a>
                     </div>

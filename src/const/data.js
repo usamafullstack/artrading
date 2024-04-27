@@ -3,8 +3,9 @@ export const CONTACT = {
   contacts: [
     {
       icon: "location",
-      line1: "Suite # 101, 1st Floor, Executive Apartment, 6th road,",
-      line2: "Rawalpindi, Pakistan.",
+      line1:
+        "Suite # 101, 1st Floor, Executive Apartment, 6th road, Rawalpindi, Pakistan.",
+      line2: "",
     },
     {
       icon: "phone",

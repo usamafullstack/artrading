@@ -2,16 +2,16 @@ import React from "react";
 
 const ServicesHero = ({ bannerText }) => {
   return (
-    <section className="flex items-center">
+    <section className="flex items-center flex-col lg:flex-row ">
       {bannerText && bannerText > "" ? (
         <div className="text-white basis-full">
-          <h2 className="text-6xl uppercase tracking-wide font-semibold">
+          <h2 className="text-5xl lg:text-6xl uppercase tracking-wide font-semibold">
             <span className="text-secondary">{bannerText.split(" ")[0]}</span>{" "}
             {bannerText.split(" ")[1]}
           </h2>
         </div>
       ) : (
-        <div className="text-white">
+        <div className="text-white w-full mx-auto ">
           <div className="flex items-center gap-1">
             <img
               alt="Lint Fix"
@@ -25,12 +25,12 @@ const ServicesHero = ({ bannerText }) => {
             We Make Sure People <br /> Will Remember It.
           </h2>
           <p className="text-grey text-xl">
-            One thing remains constant in today’s dynamic global business
+            One thing remains constant in today's dynamic global business
             market.
           </p>
         </div>
       )}
-      <div className="ml-40 basis-full">
+      <div className="">
         <img
           alt="Lint Fix"
           src={require("../../assets/png/services-hero.png")}

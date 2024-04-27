@@ -4,7 +4,7 @@ const Card = ({ order, text, subText, image, classname }) => {
   return (
     <>
       <section
-        className={`flex lg:hidden flex-col justify-between w-screen mt-16 mb-16 gap-10 px-12 items-center py-10 text-white rounded-3xl bg-tertiary ${classname}`}>
+        className={`flex lg:hidden flex-col justify-between w-full my-16 gap-2 lg:gap-10 px-12 items-center py-10 text-white rounded-3xl bg-tertiary ${classname}`}>
         <div className="basis-full">
           <img
             src={image}

@@ -6,9 +6,9 @@ import { Input } from "./Input";
 const Footer = () => {
   return (
     <>
-      <hr className="block h-[1px] border-0 border-t-[3px] border-t-hover my-16" />
-      <footer className="flex justify-between bg-primary mb-16 px-10">
-        <div>
+      <hr className="w-screen block h-[1px] border-0 border-t-[3px] border-t-hover my-16" />
+      <footer className="flex flex-col lg:flex-row gap-16 lg:gap-0 justify-between bg-primary mb-16 px-10">
+        <div className="w-full">
           <h3 className="font-bold text-secondary">{CONTACT.city}</h3>
           {CONTACT.contacts.map((contact) => (
             <div className="flex items-center my-4 gap-5">
@@ -20,13 +20,13 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        <div>
+        <div className="w-full lg:text-center">
           <h3 className="font-bold text-secondary">Services</h3>
           {SERVICES.map((service) => (
             <p className="text-white my-2">{service}</p>
           ))}
         </div>
-        <div>
+        <div className="w-full">
           <h3 className="font-bold text-secondary">Get in Touch</h3>
           <Input placeholder={"Enter your name *"} />
           <Input
@@ -35,7 +35,7 @@ const Footer = () => {
           />
           <textarea
             placeholder={"Type Your Message here"}
-            className="w-96 bg-transparent border-white border-x-[1px] border-y-[1px] px-4 py-1 my-2 block"
+            className="w-10/12 bg-transparent text-white text-lg border-white border-x-[1px] border-y-[1px] px-4 py-1 my-2 block"
             rows={6}
           />
           <button className="mt-2 text-white bg-[#3d3d3d] px-7 uppercase font-bold py-2">

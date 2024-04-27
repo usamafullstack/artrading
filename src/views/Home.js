@@ -10,7 +10,7 @@ const Home = () => {
       <AboutSection button={true} />
       <Cards isHomePage={true} />
       <PartnersSection />
-      <div className="w-8 h-2 bg-hover rounded-full mx-auto mt-28"></div>
+      <div className="hidden lg:block w-8 h-2 bg-hover rounded-full mx-auto mt-28"></div>
       <NextSteps />
     </div>
   );

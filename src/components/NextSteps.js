@@ -4,13 +4,13 @@ import { Icon } from "./Icon";
 
 const NextSteps = () => {
   return (
-    <section className="grid grid-flow-col gap-16 px-16 my-20 grid-cols-10">
-      <div className="flex flex-col gap-5 col-span-3 ">
-        <Icon
-          name="star"
-          size={90}
-          className={"transform rotate-6 ml-8 mb-4"}
-        />
+    <section className="flex flex-col lg:flex-row lg:gap-16 px-16 my-20">
+      <Icon
+        name="star"
+        size={90}
+        className={"transform rotate-6 ml-8 mb-4"}
+      />
+      <div className="flex flex-col gap-5 ">
         <p className="text-white font-bold text-5xl mt-6">
           Next <span className="text-secondary">Steps</span>
         </p>
@@ -24,11 +24,12 @@ const NextSteps = () => {
           navigateTo={"contact"}
         />
       </div>
-      <div className="col-span-7 mt-16">
+      <div className="mt-16 lg:mt-0">
         <img
           alt="Lint Fix"
           src={require("../assets/png/next-steps.png")}
           width={900}
+          className="w-full"
           height={600}
         />
       </div>

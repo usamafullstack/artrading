@@ -1,17 +1,14 @@
-import React, { useMemo } from "react";
-
+import React from "react";
 import { ITEMS } from "../const/data";
 import { NextSteps, ImageSwiper } from "../components";
 import { ServicesHero } from "../components/Services";
-import { useSearchParams } from "react-router-dom";
 
-const Products = () => {
-  const [searchParams, setSearchParams] = useSearchParams();
+const Food = () => {
   return (
     <div>
-      <ServicesHero bannerText={`${searchParams.get("items")} Items`} />
+      <ServicesHero bannerText={`Food Items`} />
       <div className="w-8 h-2 bg-hover rounded-full mx-auto mt-40"></div>
-      {ITEMS[searchParams.get("items")].map((item) => (
+      {ITEMS["food"].map((item) => (
         <section className="my-14 mx-20 flex flex-col items-center">
           <h1 className="uppercase text-7xl text-secondary">{item.header}</h1>
           <div className="bg-grey w-16 h-[1px]" />
@@ -26,4 +23,4 @@ const Products = () => {
   );
 };
 
-export { Products };
+export { Food };

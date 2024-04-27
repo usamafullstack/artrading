@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import { Layout } from "../components";
-import { About, Home, Services, Contact, Products } from "../views";
+import { About, Home, Services, Contact, Food, NonFood } from "../views";
 
 const MainRoutes = () => {
   return (
@@ -32,10 +32,18 @@ const MainRoutes = () => {
         }
       />
       <Route
-        path="/products"
+        path="/food-items"
         element={
           <Layout>
-            <Products />
+            <Food />
+          </Layout>
+        }
+      />
+      <Route
+        path="/nonfood-items"
+        element={
+          <Layout>
+            <NonFood />
           </Layout>
         }
       />

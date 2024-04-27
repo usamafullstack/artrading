@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactComponent as HomeHeroImage } from "../../assets/svg/home-hero.svg";
 import { Button } from "../Button";
 
 const HomeHero = () => {
@@ -9,13 +8,19 @@ const HomeHero = () => {
         <p className="text-white font-bold text-[4.5rem]">
           Foremost <br /> Export / Import & <br /> Relief Suppliers
         </p>
-        <Button
-          text={"Learn More"}
-          classname="w-fit"
-          navigateTo={"about"}
-        />
+        <div className="w-full my-5 flex lg:block justify-center">
+          <Button
+            text={"Learn More"}
+            classname="w-fit"
+            navigateTo={"about"}
+          />
+        </div>
       </div>
-      <HomeHeroImage />
+      <img
+        className="hidden lg:block"
+        src={require("../../assets/png/home-hero.png")}
+        alt="Home Hero"
+      />
     </div>
   );
 };

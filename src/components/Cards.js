@@ -18,7 +18,7 @@ const Cards = ({ isHomePage }) => {
             {isHomePage ? "Industries" : "Our Services"}
           </p>
         </div>
-        <p className="text-white font-bold text-6xl mt-6">
+        <p className="text-white font-bold text-5xl lg:text-6xl mt-6">
           These Are The <span className="text-secondary">Services</span> <br />{" "}
           We Serve To You
         </p>

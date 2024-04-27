@@ -16,11 +16,7 @@ body {
   background-color: #17395c;
   padding-left: 10px;
   padding-right: 10px;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  overflow-x: hidden;
 }
 
 h1 {

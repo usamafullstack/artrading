@@ -3,7 +3,7 @@ import { Icon } from "../Icon";
 
 const PartnersSection = () => {
   return (
-    <section className="grid grid-flow-col gap-16 px-16 my-28">
+    <section className="grid lg:grid-flow-col gap-16 px-16 my-28">
       <div>
         <Icon
           name="star"
@@ -20,7 +20,7 @@ const PartnersSection = () => {
             />
             <p className="text-white font-bold">Partners</p>
           </div>
-          <p className="text-white font-bold text-6xl mt-6">
+          <p className="text-white font-bold text-5xl lg:text-6xl mt-6">
             Our Valuable <span className="text-secondary">Customers</span>
           </p>
           <p className="text-grey text-xl">
@@ -40,6 +40,7 @@ const PartnersSection = () => {
       <div>
         <img
           alt="Lint Fix"
+          className="w-full"
           src={require("../../assets/png/partners-section.png")}
           width={300}
           height={300}

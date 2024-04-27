@@ -49,12 +49,12 @@ const Navbar = () => {
           onMouseOut={() => showDropdown(false)}>
           <a
             className="rounded-full hover:text-hover hover:font-bold w-full h-full text-center pt-5"
-            href={`${window.location.protocol}//${window.location.host}/products?items=food`}>
+            href={`${window.location.protocol}//${window.location.host}/food-items`}>
             Food Items
           </a>
           <a
             className="rounded-full hover:text-hover hover:font-bold w-full h-full text-center pt-5"
-            href={`${window.location.protocol}//${window.location.host}/products?items=nonfood`}>
+            href={`${window.location.protocol}//${window.location.host}/nonfood-items`}>
             Non-Food Items
           </a>
         </section>

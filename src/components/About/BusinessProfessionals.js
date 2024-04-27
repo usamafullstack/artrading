@@ -23,16 +23,16 @@ const BusinessProfessionals = () => {
           />
           <p className="text-white font-bold">Our Professionals</p>
         </div>
-        <h2 className="text-7xl text-white">
+        <h2 className="text-5xl lg:text-6xl text-white">
           Meet Our Business{" "}
           <span className="text-secondary block">Professionals</span>
         </h2>
-        <p className="text-grey text-2xl w-5/12">
+        <p className="text-grey text-xl lg:text-2xl lg:w-5/12">
           This team will help you to make your dream come true and will guide
           you from the very beginning
         </p>
       </div>
-      <div className="grid grid-cols-2 lg:grid-cols-3 my-10">
+      <div className="grid lg:grid-cols-3 lg:my-10">
         {[1, 2, 3, 4, 5, 6, 7].map((x, i) => (
           <ImageCard
             image={x}
