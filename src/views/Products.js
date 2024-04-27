@@ -1,21 +1,17 @@
 import React, { useMemo } from "react";
-import { useLocation } from "react-router";
 
 import { ITEMS } from "../const/data";
 import { NextSteps, ImageSwiper } from "../components";
 import { ServicesHero } from "../components/Services";
+import { useSearchParams } from "react-router-dom";
 
 const Products = () => {
-  const location = useLocation();
-  const itemType = useMemo(
-    () => location.pathname.split("/")[2].split("-")[0],
-    [location]
-  );
+  const [searchParams, setSearchParams] = useSearchParams();
   return (
     <div>
-      <ServicesHero bannerText={`${itemType} Items`} />
+      <ServicesHero bannerText={`${searchParams.get("items")} Items`} />
       <div className="w-8 h-2 bg-hover rounded-full mx-auto mt-40"></div>
-      {ITEMS[itemType].map((item) => (
+      {ITEMS[searchParams.get("items")].map((item) => (
         <section className="my-14 mx-20 flex flex-col items-center">
           <h1 className="uppercase text-7xl text-secondary">{item.header}</h1>
           <div className="bg-grey w-16 h-[1px]" />

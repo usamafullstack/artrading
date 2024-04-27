@@ -32,15 +32,7 @@ const MainRoutes = () => {
         }
       />
       <Route
-        path="/products/food-items"
-        element={
-          <Layout>
-            <Products />
-          </Layout>
-        }
-      />
-      <Route
-        path="/products/nonfood-items"
+        path="/products"
         element={
           <Layout>
             <Products />

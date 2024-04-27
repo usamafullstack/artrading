@@ -47,7 +47,7 @@ const MobileNav = ({ closeNav }) => {
                             ? "text-secondary"
                             : "text-white"
                         }`}
-                        href={`${window.location.protocol}//${window.location.host}/products/food-items`}>
+                        href={`${window.location.protocol}//${window.location.host}/products?items=food`}>
                         Food Items
                       </a>
                       <a
@@ -56,7 +56,7 @@ const MobileNav = ({ closeNav }) => {
                             ? "text-secondary"
                             : "text-white"
                         }`}
-                        href={`${window.location.protocol}//${window.location.host}/products/nonfood-items`}>
+                        href={`${window.location.protocol}//${window.location.host}/products?items=nonfood`}>
                         Non-Food Items
                       </a>
                     </div>
