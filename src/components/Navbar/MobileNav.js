@@ -47,7 +47,9 @@ const MobileNav = ({ closeNav }) => {
                             ? "text-secondary"
                             : "text-white"
                         }`}
-                        href={`${window.location.protocol}//${window.location.host}/fooditems`}>
+                        onClick={() =>
+                          navigate("/fooditems", { replace: true })
+                        }>
                         Food Items
                       </a>
                       <a
@@ -56,7 +58,9 @@ const MobileNav = ({ closeNav }) => {
                             ? "text-secondary"
                             : "text-white"
                         }`}
-                        href={`${window.location.protocol}//${window.location.host}/nonfooditems`}>
+                        onClick={() =>
+                          navigate("/nonfooditems", { replace: true })
+                        }>
                         Non-Food Items
                       </a>
                     </div>
