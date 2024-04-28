@@ -50,13 +50,13 @@ const Navbar = () => {
           <a
             className="rounded-full hover:text-hover hover:font-bold w-full h-full text-center pt-5"
             // href={`${window.location.protocol}//${window.location.host}/fooditems`}
-            onClick={() => navigate("fooditems")}>
+            onClick={() => navigate("fooditems", { replace: true })}>
             Food Items
           </a>
           <a
             className="rounded-full hover:text-hover hover:font-bold w-full h-full text-center pt-5"
             // href={`${window.location.protocol}//${window.location.host}/nonfooditems`}
-            onClick={() => navigate("nonfooditems")}>
+            onClick={() => navigate("nonfooditems", { replace: true })}>
             Non-Food Items
           </a>
         </section>
