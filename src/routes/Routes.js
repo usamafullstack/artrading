@@ -32,7 +32,7 @@ const MainRoutes = () => {
         }
       />
       <Route
-        path="/food-items"
+        path="/fooditems"
         element={
           <Layout>
             <Food />
@@ -40,7 +40,7 @@ const MainRoutes = () => {
         }
       />
       <Route
-        path="/nonfood-items"
+        path="/nonfooditems"
         element={
           <Layout>
             <NonFood />
