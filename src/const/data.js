@@ -65,57 +65,36 @@ export const ROUTING_OPTIONS = [
   { name: "About", route: "/about" },
   { name: "Services", route: "/services" },
   { name: "Products", route: "/products" },
-  { name: "Contact", route: "/contact" },
 ];
-
-// 1:14:40
 
 export const ITEMS = {
   food: [
     {
       header: "Rice",
-      subHeader:
-        "Rice is a cereal grain, and in its domesticated form is the staple food for over half of the world's human population, particularly in Asia and Africa.",
       images: [
-        "https://source.unsplash.com/random/353x353/?rice&sig=1",
-        "https://source.unsplash.com/random/353x353/?rice&sig=2",
-        "https://source.unsplash.com/random/353x353/?rice&sig=3",
+        "https://bhandarifoods.com/wp-content/uploads/2022/01/Rice_AdobeStock_64819529_E-MK.jpg",
+        "https://c.ndtvimg.com/2023-08/brlp7gk_uncooked-rice-or-rice-grains_625x300_18_August_23.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=738",
+        "https://i.brecorder.com/primary/2024/03/220857309996668.jpg",
       ],
     },
     {
       header: "Onion",
-      subHeader:
-        "An onion also known as the bulb onion or common onion, is a vegetable that is the most widely cultivated species of the genus Allium.",
       images: [
-        "https://source.unsplash.com/random/353x353/?onion&sig=1",
-        "https://source.unsplash.com/random/353x353/?onion&sig=2",
-        "https://source.unsplash.com/random/353x353/?onion&sig=3",
-      ],
-    },
-    {
-      header: "Salt",
-      subHeader:
-        "Salt is a mineral composed primarily of sodium chloride. When used in food, especially in granulated form, it is more formally called table salt.",
-      images: [
-        "https://user-assets.sharetribe.com/images/listing_images/images/5742966/medium/whatsapp_image_2023-11-11_at_22_57_52__1_.jpeg?1710231858",
-        "https://bhandarifoods.com/wp-content/uploads/2022/02/salt-shaker.jpg",
-        "https://aabantechs.com/wp-content/uploads/2023/01/types-of-salt-table-600x400-1-300x300-1.jpg",
+        "https://cdn.britannica.com/48/82548-050-A61BF320/Onion-bulbs-shapes-variety-colours-sizes.jpg",
+        "https://m.media-amazon.com/images/I/41Pi5dfvOoL.jpg",
+        "https://i0.wp.com/greebleagro.com/wp-content/uploads/2019/10/Jute-Bag-Packing-Fresh-Onion.jpg?ssl=1",
       ],
     },
     {
       header: "Sugar",
-      subHeader:
-        "Sugar is a common sweetener in foods and beverages, contributing to taste and palatability. Sugar enhances the flavor of many dishes and is a key ingredient in desserts and confectionery.",
       images: [
-        "https://source.unsplash.com/random/353x353/?sugar&sig=1",
-        "https://source.unsplash.com/random/353x353/?sugar&sig=2",
-        "https://source.unsplash.com/random/353x353/?sugar&sig=3",
+        "https://c.ndtvimg.com/2023-06/ld5kckc8_sugar_625x300_19_June_23.jpg",
+        "https://static.toiimg.com/thumb/msid-108469108,imgsize-101770,width-400,resizemode-4/108469108.jpg",
+        "https://www.agnelpkg.com/images/products/sugar.jpg",
       ],
     },
     {
       header: "Pink Salt",
-      subHeader:
-        "The salt, which often has a pinkish tint due to trace minerals, is primarily used as a food additive to replace refined table salt, but is also used for cooking and food presentation, decorative lamps, and spa treatments.",
       images: [
         "https://healthwire.pk/wp-content/uploads/2022/09/pink-salt-benefits.jpg",
         "https://www.pinksaltdecor.com/wp-content/themes/pink-salt/img/trusted-salt-company.png",
@@ -124,44 +103,38 @@ export const ITEMS = {
     },
     {
       header: "Vegetables",
-      subHeader:
-        "A diet rich in vegetables and can lower blood pressure, reduce the risk of heart disease and stroke, prevent some types of cancer, lower risk of eye and digestive problems, and have a positive effect upon blood sugar.",
       images: [
-        "https://source.unsplash.com/random/353x353/?vegetables&sig=1",
-        "https://source.unsplash.com/random/353x353/?vegetables&sig=2",
-        "https://source.unsplash.com/random/353x353/?vegetables&sig=3",
+        "https://cdn.britannica.com/17/196817-159-9E487F15/vegetables.jpg",
+        "https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-2foodgroups_vegetables_detailfeature.jpg?sfvrsn=226f1bc7_6",
+        "https://media.millichronicle.com/2018/12/12121053/packaged-produce.jpg",
       ],
     },
     {
       header: "Potatoes",
-      subHeader:
-        "Potatoes are a popular food worldwide, especially in places like Asia and Africa. They're loved for their versatility and are a key part of many people's diets.",
       images: [
-        "https://source.unsplash.com/random/353x353/?potatoes&sig=1",
-        "https://source.unsplash.com/random/353x353/?potatoes&sig=2",
-        "https://source.unsplash.com/random/353x353/?potatoes&sig=3",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Patates.jpg/1200px-Patates.jpg",
+        "https://www.hsph.harvard.edu/nutritionsource/wp-content/uploads/sites/30/2014/01/potatoes-411975_1280.jpg",
+        "https://groceryapp.co.uk/cdn/shop/products/Pre-PackedPotato5Kg_800x.jpg?v=1643359211",
       ],
     },
     {
       header: "Citrus",
-      subHeader:
-        "Oranges and other citrus fruits are eaten by many people all around the world, especially in Asia and Africa. They're loved for their delicious flavor and are an important part of many people's diets.",
       images: [
-        "https://source.unsplash.com/random/353x353/?oranges&sig=1",
-        "https://source.unsplash.com/random/353x353/?oranges&sig=2",
-        "https://source.unsplash.com/random/353x353/?oranges&sig=3",
+        "https://cdn.britannica.com/45/190245-050-CCAFE09B/grapefruits-pomelos.jpg",
+        "https://www.mayoclinichealthsystem.org/-/media/national-files/images/hometown-health/2021/citrus-fruits.jpg?sc_lang=en",
+        "https://premiercitrus.com/wp-content/uploads/2018/09/8.jpg",
       ],
     },
     {
       header: "Mango",
       images: [
-        "https://source.unsplash.com/random/353x353/?mango&sig=1",
-        "https://source.unsplash.com/random/353x353/?mango&sig=2",
-        "https://source.unsplash.com/random/353x353/?mango&sig=3",
+        "https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/01/mangoes_what_to_know_1296x728_header-1024x575.jpg?w=1155&h=1528",
+        "https://www.mishry.com/wp-content/uploads/2020/05/mango-5224186_1280.jpg",
+        "https://cdn.tridge.com/uploads/a6/1e/37/a61e372b7f4289f2cc744b83e53dc88046268658/Pakistan-Mango-436419.jpg",
       ],
     },
     {
-      header: "Sesamum Seeds",
+      header: "Sesame",
       images: [
         "https://www.thecookingfoodie.com/Images/Site/Pages/a8efcc35-5cfa-42d9-acf1-94e69f7b0c9b.png",
         "https://chamagak.com/images/ss1.jpg",
@@ -179,67 +152,99 @@ export const ITEMS = {
   ],
   nonfood: [
     {
+      header: "Bedsheets / Socks",
+      images: [
+        "https://images.pexels.com/photos/7591040/pexels-photo-7591040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTonqESJSP8ASzRZYcD-GEwnN-D-9r1pSgEow&s",
+        "https://www.royalcart.pk/cdn/shop/products/7_2_cb8c6c27-063c-4b9a-a531-f9dd238a1a49.jpg?v=1666241214",
+      ],
+    },
+    {
+      header: "Blankets",
+      images: [
+        "https://cdn.thewirecutter.com/wp-content/media/2023/01/throw-blankets-2048px-09089-3x2-1.jpg?auto=webp&quality=75&crop=3:2&width=1024",
+        "https://www.health.com/thmb/IrCy7nGOXs-YhIPcH2TlFLj2Wv8=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc()/HLT_GROUPSHOT-5f7f0cb56dbb4002a2ab13e510f64912.jpeg",
+        "https://m.media-amazon.com/images/I/81Kr51hHTCL._AC_UF894,1000_QL80_.jpg",
+      ],
+    },
+    {
+      header: "Towels",
+      images: [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_v-twJAvFenwG0Bz28VuS5W99U-_etBNTAZ7kTlfrVQ&s",
+        "https://m.media-amazon.com/images/I/81oi1Q57OTL._AC_UF350,350_QL80_.jpg",
+        "https://qph.cf2.quoracdn.net/main-qimg-dc1a68cad1a0551dbc3e03a70c90bd78-lq",
+      ],
+    },
+    {
+      header: "Bathrobes",
+      images: [
+        "https://api.kempinskiboutique.com/media/catalog/product/k/e/kempinski-kids-velour-shawl-collar-robe-kem_small.jpg",
+        "https://www.obertex.com/wp-content/uploads/2020/05/0002_Hooded-Bathrobes-Kapuzenbademantel-High-Quality-Hotel-Textile-.jpg",
+        "https://ctexs.pk/wp-content/uploads/2023/08/Bathrobe-Pink-1.jpg",
+      ],
+    },
+    {
       header: "Leather Handbags",
       images: [
-        "https://source.unsplash.com/random/353x353/?leather+handbag&sig=1",
-        "https://source.unsplash.com/random/353x353/?leather+handbag&sig=2",
-        "https://source.unsplash.com/random/353x353/?leather+handbag&sig=3",
+        "https://www.laptab.com.pk/theme/mobile/206570/brown_.png",
+        "https://obipelle.co.uk/wp-content/uploads/2023/04/buttery-soft-leather-handbags.jpg",
+        "https://bnbags.com/cdn/shop/files/classic-leather-messenger-beach_69e1987a-ad85-4d45-a650-7df4da3918df.jpg?v=1685647895&width=1280",
       ],
     },
     {
       header: "Leather Wallets",
       images: [
-        "https://source.unsplash.com/random/353x353/?leather+wallets&sig=1",
-        "https://source.unsplash.com/random/353x353/?leather+wallets&sig=2",
-        "https://source.unsplash.com/random/353x353/?leather+wallets&sig=3",
+        "https://revaayat.co.uk/wp-content/uploads/2021/05/GIX043.png",
+        "https://harshaystore.pk/cdn/shop/products/1_1_grande.jpg?v=1673269490",
+        "https://vonbaer.com/cdn/shop/articles/wet-leather-wallet.jpg?v=1707220528",
       ],
     },
     {
       header: "Leather Jackets",
       images: [
-        "https://source.unsplash.com/random/353x353/?leather+jackets&sig=1",
-        "https://source.unsplash.com/random/353x353/?leather+jackets&sig=2",
-        "https://source.unsplash.com/random/353x353/?leather+jackets&sig=3",
+        "https://mender.pk/wp-content/uploads/2022/10/IMG_0314_web.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtNemA6_mvTAeZrN_YwDwa1SdGRaVYBKj9Egt3LSpVAg&s",
+        "https://rollsports.com.pk/wp-content/uploads/2022/11/14g.jpg",
       ],
     },
     {
       header: "Leather Belts",
       images: [
-        "https://source.unsplash.com/random/353x353/?leather+belts&sig=1",
-        "https://source.unsplash.com/random/353x353/?leather+belts&sig=2",
-        "https://source.unsplash.com/random/353x353/?leather+belts&sig=3",
+        "https://mender.pk/wp-content/uploads/2021/03/2-4-800x800.png",
+        "https://shahzebsaeed.com/cdn/shop/files/Belt-Mobile-Banners.jpg?v=1696849366",
+        "https://leathergallery.pk/wp-content/uploads/2022/11/Pack-Of-2-Braided-Leather-Belt-Rs-3599-Rs-3199-1.jpg",
       ],
     },
     {
       header: "Leather Footwear",
       images: [
-        "https://source.unsplash.com/random/353x353/?leather+footwear&sig=1",
-        "https://source.unsplash.com/random/353x353/?leather+footwear&sig=2",
-        "https://source.unsplash.com/random/353x353/?leather+footwear&sig=3",
+        "https://www.responsiveindustries.com/wp-content/uploads/2019/02/footwear-banner.jpg",
+        "https://cdn.shopify.com/s/files/1/1107/6454/files/leather-shoes-flat-lay-with-polishing.jpg?v=1643204542",
+        "https://www.balujas.net/image/cache/catalog/collection/collection-img-01-740x740.jpg",
       ],
     },
     {
       header: "Leather Gloves",
       images: [
-        "https://source.unsplash.com/random/353x353/?leather+gloves&sig=1",
-        "https://source.unsplash.com/random/353x353/?leather+gloves&sig=2",
-        "https://source.unsplash.com/random/353x353/?leather+gloves&sig=3",
-      ],
-    },
-    {
-      header: "Leather Laptop Bags",
-      images: [
-        "https://source.unsplash.com/random/353x353/?leather+briefcase&sig=1",
-        "https://source.unsplash.com/random/353x353/?leather+briefcase&sig=2",
-        "https://source.unsplash.com/random/353x353/?leather+briefcase&sig=3",
+        "https://img.hatshopping.com/Conductive-Leather-Gloves-by-Stetson-brown.48528_rf11.jpg",
+        "https://static.fibre2fashion.com/MemberResources/LeadResources/4/2013/12/Seller/1369289/Images/1369289_1_mens%20goat%20leather%20gloves.jpg",
+        "https://static.fibre2fashion.com/MemberResources/LeadResources/4/2019/5/Seller/15163776/Images/15163776_2_leather-gloves.jpg",
       ],
     },
     {
       header: "Leather Backpacks",
       images: [
-        "https://source.unsplash.com/random/353x353/?leather+backpack&sig=1",
-        "https://source.unsplash.com/random/353x353/?leather+backpack&sig=2",
-        "https://source.unsplash.com/random/353x353/?leather+backpack&sig=3",
+        "https://hips.hearstapps.com/hmg-prod/images/701/leather-backpacks-main-1505487602.jpg?crop=1xw:0.884xh;center,top&resize=1200:*",
+        "https://therealleathercompany.com/cdn/shop/files/leather-backpacks.webp?v=1711707432&width=3840",
+        "https://m.media-amazon.com/images/I/41pXCavKpuS.jpg",
+      ],
+    },
+    {
+      header: "Leather Sportswear",
+      images: [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/c3/cc/48/even-if-you-don-t-have.jpg?w=1200&h=900&s=1",
+        "https://clamentcustomleather.com/home/men-leather-clothes.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkn45_8XhtWDm9mRycAgTm0xKqMkKcASxleQ&s",
       ],
     },
   ],

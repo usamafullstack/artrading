@@ -1,6 +1,7 @@
 export * from "./Layout";
 export * from "./Footer";
 export * from "./Button";
+export * from "./Banner";
 export * from "./Card";
 export * from "./Cards";
 export * from "./AboutSection";

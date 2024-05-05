@@ -2,7 +2,15 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import { Layout } from "../components";
-import { About, Home, Services, Contact, Food, NonFood } from "../views";
+import {
+  About,
+  Home,
+  Services,
+  Contact,
+  Food,
+  NonFood,
+  Manpower,
+} from "../views";
 
 const MainRoutes = () => {
   return (
@@ -52,6 +60,14 @@ const MainRoutes = () => {
         element={
           <Layout>
             <Contact />
+          </Layout>
+        }
+      />
+      <Route
+        path="/manpower"
+        element={
+          <Layout>
+            <Manpower />
           </Layout>
         }
       />

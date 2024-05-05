@@ -1,13 +1,16 @@
 import React from "react";
 import { ITEMS } from "../const/data";
-import { NextSteps, ImageSwiper } from "../components";
+import { NextSteps, ImageSwiper, Banner } from "../components";
 import { ServicesHero } from "../components/Services";
 
 const Food = () => {
   return (
     <div>
       <ServicesHero bannerText={`Food Items`} />
-      <div className="w-8 h-2 bg-hover rounded-full mx-auto mt-40"></div>
+      <Banner
+        bannerText="Packaging of the product can be as per your needs. Contact us for
+          further details."
+      />
       {ITEMS["food"].map((item) => (
         <section className="my-14 mx-20 flex flex-col items-center">
           <h1 className="uppercase text-7xl text-secondary">{item.header}</h1>
@@ -18,6 +21,7 @@ const Food = () => {
           <ImageSwiper images={item.images} />
         </section>
       ))}
+      <div className="w-8 h-2 bg-hover rounded-full mx-auto mt-20"></div>
       <NextSteps />
     </div>
   );

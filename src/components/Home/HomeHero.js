@@ -12,7 +12,7 @@ const HomeHero = () => {
           <Button
             text={"Learn More"}
             classname="w-fit"
-            navigateTo={"about"}
+            navigateTo={"/about"}
           />
         </div>
       </div>

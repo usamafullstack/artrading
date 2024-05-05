@@ -39,7 +39,7 @@ const Cards = ({ isHomePage }) => {
           <Button
             text="See all services we provide"
             classname={"w-fit font-bold text-base"}
-            navigateTo={"services"}
+            navigateTo={"/services"}
           />
         </div>
       )}

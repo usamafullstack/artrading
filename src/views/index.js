@@ -4,3 +4,4 @@ export * from "./Contact";
 export * from "./Food";
 export * from "./NonFood";
 export * from "./Services";
+export * from "./Manpower";

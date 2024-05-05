@@ -21,7 +21,7 @@ const NextSteps = () => {
         <Button
           text={"Contact Us Now"}
           classname={"font-bold text-base px-5 w-fit"}
-          navigateTo={"contact"}
+          navigateTo={"/contact"}
         />
       </div>
       <div className="mt-16 lg:mt-0">

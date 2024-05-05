@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
 import { Button } from "../Button";
-import { ROUTING_OPTIONS } from "../../const/data";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -53,7 +52,7 @@ const Navbar = () => {
           <section
             className={`${
               dropdown ? "block" : "hidden"
-            } bg-white text-black h-32 w-48 absolute top-7 -left-12 flex flex-col justify-evenly p-2 rounded-3xl`}
+            } bg-white text-black h-48 w-48 absolute top-7 -left-12 flex flex-col justify-evenly p-2 rounded-3xl`}
             onMouseOver={() => showDropdown(true)}
             onMouseOut={() => showDropdown(false)}>
             <a
@@ -66,18 +65,17 @@ const Navbar = () => {
               onClick={() => navigate("/nonfooditems", { replace: true })}>
               Non-Food Items
             </a>
+            <a
+              className="rounded-full hover:text-hover hover:font-bold w-full h-full text-center pt-5"
+              onClick={() => navigate("/manpower", { replace: true })}>
+              Manpower
+            </a>
           </section>
-        </li>
-        <li
-          className={`text-xl hover:text-secondary cursor-pointer list-none ${
-            location.pathname === "/contact" ? "text-secondary" : "text-white"
-          } ${dropdown && "text-secondary"}`}>
-          Contact
         </li>
       </div>
       <Button
         text={"Contact Us"}
-        navigateTo={"contact"}
+        navigateTo={"/contact"}
       />
     </nav>
   );
