@@ -14,7 +14,9 @@ const NonFood = () => {
       {/* <div className="w-8 h-2 bg-hover rounded-full mx-auto mt-20"></div> */}
       {ITEMS["nonfood"].map((item) => (
         <section className="my-14 mx-20 flex flex-col items-center">
-          <h1 className="uppercase text-7xl text-secondary">{item.header}</h1>
+          <h1 className="uppercase text-5xl lg:text-7xl text-secondary">
+            {item.header}
+          </h1>
           <div className="bg-grey w-16 h-[1px]" />
           <p className="text-xl w-5/6 text-center my-6 text-white">
             {item.subHeader}

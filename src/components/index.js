@@ -5,6 +5,7 @@ export * from "./Banner";
 export * from "./Card";
 export * from "./Cards";
 export * from "./AboutSection";
+export * from "./BasicModal";
 export * from "./NextSteps";
 export * from "./Input";
 export * from "./ImageSwiper";

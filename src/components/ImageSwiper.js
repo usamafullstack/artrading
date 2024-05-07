@@ -9,7 +9,7 @@ const ImageSwiper = ({ images }) => (
   <Swiper
     modules={[Navigation, Pagination]}
     spaceBetween={50}
-    slidesPerView={3}
+    slidesPerView={window.innerWidth > 768 ? 3 : 1}
     className="w-full max-w-full min-w-0"
     navigation
     pagination={{ clickable: true }}
@@ -19,7 +19,7 @@ const ImageSwiper = ({ images }) => (
         <img
           src={image}
           alt="Product"
-          className="h-[353px] w-[353px] rounded-2xl"
+          className="w-screen h-48 lg:h-[353px] lg:w-[353px] rounded-2xl"
         />
       </SwiperSlide>
     ))}

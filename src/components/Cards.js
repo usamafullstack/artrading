@@ -1,11 +1,18 @@
 import React from "react";
 import { Card } from "./Card";
+import { BasicModal } from "./BasicModal";
 import { HOME_CARDS } from "../const/data";
 import { Button } from "./Button";
 
 const Cards = ({ isHomePage }) => {
+  // const [open, setOpen] = React.useState(false);
+
   return (
     <section className="bg-primary py-10 mx-10">
+      {/* <BasicModal
+        open={open}
+        handleClose={() => setOpen(true)}
+      /> */}
       <div className="text-center">
         <div className="flex items-center gap-1 justify-center">
           <img
@@ -30,7 +37,11 @@ const Cards = ({ isHomePage }) => {
             text={cardData.text}
             subText={cardData.subText}
             image={cardData.image}
-            classname={"my-5"}
+            page={cardData.page}
+            classname={"my-5 cursor-pointer"}
+            // open={open}
+            // modalOpen={() => setOpen(true)}
+            // modalClose={() => setOpen(false)}
           />
         ))}
       </div>

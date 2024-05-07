@@ -32,6 +32,7 @@ export const SERVICES = [
 export const HOME_CARDS = [
   {
     text: "Export & Import",
+    page: "/fooditems",
     subText:
       "Empower your global trade with seamless import and export solutions tailored to your needs. Streamline logistics, minimize costs, and maximize efficiency with our trusted expertise.",
     image:
@@ -39,24 +40,27 @@ export const HOME_CARDS = [
   },
   {
     text: "General Order",
+    page: "/nonfooditems",
     subText:
       "Elevate your supply chain efficiency with comprehensive General Order services. From sourcing to delivery, ensure seamless procurement and distribution tailored to your unique requirements.",
     image:
       "https://plus.unsplash.com/premium_photo-1681492228360-7665972aa5ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    text: "Manpower",
-    subText:
-      "Unlock workforce potential with our tailored Manpower solutions. From recruitment to deployment, optimize staffing needs and drive productivity with our expertise.",
-    image:
-      "https://images.pexels.com/photos/159358/construction-site-build-construction-work-159358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  },
-  {
     text: "Textile",
+    page: "/nonfooditems",
     subText:
       "Enhance your textile business for success. From sportswear to leather goods, we streamline your sourcing and manufacturing, ensuring quality and efficiency for global market competitiveness.",
     image:
       "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  },
+  {
+    text: "Manpower",
+    page: "/manpower",
+    subText:
+      "Unlock workforce potential with our tailored Manpower solutions. From recruitment to deployment, optimize staffing needs and drive productivity with our expertise.",
+    image:
+      "https://images.pexels.com/photos/159358/construction-site-build-construction-work-159358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
 ];
 
