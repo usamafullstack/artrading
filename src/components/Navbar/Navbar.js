@@ -22,21 +22,24 @@ const Navbar = () => {
           className={`text-xl hover:text-secondary cursor-pointer list-none ${
             location.pathname === "/" ? "text-secondary" : "text-white"
           } ${dropdown && "text-secondary"}`}
-          onClick={() => navigate("/")}>
+          onClick={() => navigate("/")}
+        >
           Home
         </li>
         <li
           className={`text-xl hover:text-secondary cursor-pointer list-none ${
             location.pathname === "/about" ? "text-secondary" : "text-white"
           } ${dropdown && "text-secondary"}`}
-          onClick={() => navigate("/about")}>
+          onClick={() => navigate("/about")}
+        >
           About
         </li>
         <li
           className={`text-xl hover:text-secondary cursor-pointer list-none ${
             location.pathname === "/services" ? "text-secondary" : "text-white"
           } ${dropdown && "text-secondary"}`}
-          onClick={() => navigate("/services")}>
+          onClick={() => navigate("/services")}
+        >
           Services
         </li>
         <li
@@ -47,35 +50,41 @@ const Navbar = () => {
               : "text-white"
           } ${dropdown && "text-secondary"}`}
           onMouseOver={() => showDropdown(true)}
-          onMouseOut={() => showDropdown(false)}>
+          onMouseOut={() => showDropdown(false)}
+        >
           Products
           <section
             className={`${
               dropdown ? "block" : "hidden"
             } bg-white text-black h-48 w-48 absolute top-7 -left-12 flex flex-col justify-evenly p-2 rounded-3xl`}
             onMouseOver={() => showDropdown(true)}
-            onMouseOut={() => showDropdown(false)}>
+            onMouseOut={() => showDropdown(false)}
+          >
             <a
               className="rounded-full hover:text-hover hover:font-bold w-full h-full text-center pt-5"
-              onClick={() => navigate("/fooditems", { replace: true })}>
+              onClick={() => navigate("/fooditems", { replace: true })}
+            >
               Food Items
             </a>
             <a
               className="rounded-full hover:text-hover hover:font-bold w-full h-full text-center pt-5"
-              onClick={() => navigate("/nonfooditems", { replace: true })}>
+              onClick={() => navigate("/nonfooditems", { replace: true })}
+            >
               Non-Food Items
             </a>
             <a
               className="rounded-full hover:text-hover hover:font-bold w-full h-full text-center pt-5"
-              onClick={() => navigate("/manpower", { replace: true })}>
+              onClick={() => navigate("/manpower", { replace: true })}
+            >
               Manpower
             </a>
           </section>
         </li>
       </div>
       <Button
-        text={"Contact Us"}
-        navigateTo={"/contact"}
+        text="Contact Us"
+        classname="w-fit font-bold text-base"
+        navigateTo="/contact"
       />
     </nav>
   );

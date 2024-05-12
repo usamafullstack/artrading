@@ -29,10 +29,7 @@ const Footer = () => {
         <div className="w-full">
           <h3 className="font-bold text-secondary">Get in Touch</h3>
           <Input placeholder={"Enter your name *"} />
-          <Input
-            placeholder={"Enter a valid email address *"}
-            type={"email"}
-          />
+          <Input placeholder={"Enter a valid email address *"} type={"email"} />
           <textarea
             placeholder={"Type Your Message here"}
             className="w-10/12 bg-transparent text-white text-lg border-white border-x-[1px] border-y-[1px] px-4 py-1 my-2 block"

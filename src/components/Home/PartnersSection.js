@@ -20,7 +20,7 @@ const PartnersSection = () => {
             />
             <p className="text-white font-bold">Partners</p>
           </div>
-          <p className="text-white font-bold text-5xl lg:text-6xl mt-6">
+          <p className="text-white font-bold text-5xl lg:text-4xl mt-6">
             Our Valuable <span className="text-secondary">Customers</span>
           </p>
           <p className="text-grey text-xl">

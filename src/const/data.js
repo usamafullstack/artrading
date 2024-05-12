@@ -247,8 +247,11 @@ export const ITEMS = {
       header: "Leather Sportsgear",
       images: [
         "https://cdn.shopify.com/s/files/1/2653/2386/files/Edited_Slideshow_2_1400x.jpg",
+        "https://static-01.daraz.pk/p/d68855a475f63c5140b36e3ca3dea78c.jpg_750x750.jpg_.webp",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHFx2d8Wec970c2daq5paiiEX6CTs170q3s84pNByAXPikSPWmPaEJJDfaBOnR4xDU5yY&usqp=CAU",
-        "https://dailytimes.com.pk/assets/uploads/2021/12/13/6-1280x720.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIHYeIIk8phPKW1sC5GOhqTVh-IAR4Bl2SBYP21qHtQQ&s",
+        "https://images.pexels.com/photos/1192043/pexels-photo-1192043.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://i.ytimg.com/vi/JMHV2iNNmLw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCGjuORFZsTITb5OBUUpp1yRlMrzw",
       ],
     },
   ],

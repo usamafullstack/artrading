@@ -14,7 +14,7 @@
   position: relative;
 }
 .marquee-content {
-  animation: marquee 13s linear infinite;
+  animation: marquee 16s linear infinite;
 }
 
 @keyframes marquee {
@@ -33,6 +33,16 @@
 html,
 body {
   scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Montserrat", sans-serif;
 }
 
 ::-webkit-scrollbar {

@@ -5,15 +5,12 @@ const HomeHero = () => {
   return (
     <div className="flex items-center lg:flex-row flex-col justify-around pt-16">
       <div className="flex flex-col gap-4">
-        <p className="text-white font-bold text-[4.5rem]">
-          Foremost <br /> Export / Import & <br /> Relief Suppliers
+        <p className="text-white font-bold text-4xl">
+          Leading Export / Import
+          <br /> Providers & Relief Suppliers
         </p>
         <div className="w-full my-5 flex lg:block justify-center">
-          <Button
-            text={"Learn More"}
-            classname="w-fit"
-            navigateTo={"/about"}
-          />
+          <Button text={"Learn More"} classname="w-fit" navigateTo={"/about"} />
         </div>
       </div>
       <img

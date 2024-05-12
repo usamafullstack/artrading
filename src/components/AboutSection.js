@@ -4,7 +4,8 @@ import { Button } from "./Button";
 const AboutSection = ({ isHome, button, classname }) => {
   return (
     <section
-      className={`grid lg:grid-flow-col gap-16 px-16 my-28 ${classname}`}>
+      className={`grid lg:grid-flow-col gap-16 px-16 my-28 ${classname}`}
+    >
       <div className={`w-full h-full ${isHome && "lg:order-2"} order-first`}>
         <img
           alt="Lint Fix"
@@ -25,7 +26,7 @@ const AboutSection = ({ isHome, button, classname }) => {
           />
           <p className="text-white font-bold">Who we are</p>
         </div>
-        <p className="font-bold text-white text-5xl lg:text-6xl">
+        <p className="font-bold text-white text-5xl lg:text-4xl">
           <span className="text-secondary">A&R Trading</span> mission is to
           provide best services
         </p>

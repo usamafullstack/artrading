@@ -5,11 +5,7 @@ import { Icon } from "./Icon";
 const NextSteps = () => {
   return (
     <section className="flex flex-col lg:flex-row lg:gap-16 px-16 my-20">
-      <Icon
-        name="star"
-        size={90}
-        className={"transform rotate-6 ml-8 mb-4"}
-      />
+      <Icon name="star" size={90} className={"transform rotate-6 ml-8 mb-4"} />
       <div className="flex flex-col gap-5 ">
         <p className="text-white font-bold text-5xl mt-6">
           Next <span className="text-secondary">Steps</span>
@@ -20,7 +16,7 @@ const NextSteps = () => {
         </p>
         <Button
           text={"Contact Us Now"}
-          classname={"font-bold text-base px-5 w-fit"}
+          classname="w-fit font-bold text-base"
           navigateTo={"/contact"}
         />
       </div>

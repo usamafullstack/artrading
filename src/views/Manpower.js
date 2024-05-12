@@ -7,7 +7,7 @@ const Manpower = () => {
   return (
     <div>
       <ServicesHero bannerText={`Manpower`} />
-      <Banner bannerText="We deal in all skills placement across multiple continents like Europe and Middle East" />
+      <Banner bannerText="We lead in all kinds of skilled and unskilled manpower across multiple continents, all over Europe and Middle East." />
       <ManpowerContent />
       <NextSteps />
     </div>

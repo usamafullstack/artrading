@@ -14,7 +14,7 @@ const Contact = () => {
           />
           <p className="text-white font-bold">Contact Us</p>
         </div>
-        <p className="text-5xl lg:text-6xl text-white">Contact Us</p>
+        <p className="text-5xl lg:text-4xl text-white">Contact Us</p>
         <p className="text-grey text-xl font-semibold">
           Have a question? Want to know more about us?
         </p>
@@ -34,10 +34,7 @@ const Contact = () => {
           className="w-96 bg-transparent border-[#21578c] border-x-[2px] border-y-[2px] px-4 py-1 my-2 block"
           rows={6}
         />
-        <Button
-          text={"Submit"}
-          classname={"mt-4"}
-        />
+        <Button text={"Submit"} classname={"mt-4"} />
       </div>
       <NextSteps />
     </section>

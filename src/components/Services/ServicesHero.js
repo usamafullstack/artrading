@@ -5,7 +5,7 @@ const ServicesHero = ({ bannerText }) => {
     <section className="flex items-center flex-col lg:flex-row ">
       {bannerText && bannerText > "" ? (
         <div className="text-white basis-full">
-          <h2 className="text-5xl lg:text-6xl uppercase tracking-wide font-semibold">
+          <h2 className="text-5xl lg:text-4xl uppercase tracking-wide font-semibold">
             <span className="text-secondary">{bannerText.split(" ")[0]}</span>{" "}
             {bannerText.split(" ")[1]}
           </h2>

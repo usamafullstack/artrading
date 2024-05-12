@@ -3,7 +3,7 @@ import React from "react";
 const AboutHero = () => {
   return (
     <section className="text-center text-white flex flex-col items-center gap-5 mt-10">
-      <p className="text-5xl lg:text-6xl font-bold">
+      <p className="text-5xl lg:text-4xl font-bold">
         Import / Export & Emerency <br />
         relief suppliers
       </p>

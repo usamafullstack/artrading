@@ -23,7 +23,7 @@ const BusinessProfessionals = () => {
           />
           <p className="text-white font-bold">Our Professionals</p>
         </div>
-        <h2 className="text-5xl lg:text-6xl text-white">
+        <h2 className="text-5xl lg:text-4xl text-white">
           Meet Our Business{" "}
           <span className="text-secondary block">Professionals</span>
         </h2>

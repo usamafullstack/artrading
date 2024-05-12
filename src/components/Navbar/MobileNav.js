@@ -27,17 +27,15 @@ const MobileNav = ({ closeNav }) => {
                 option.name !== "Products"
                   ? navigateToScreen(option.route)
                   : showDropdown(!dropdown)
-              }>
+              }
+            >
               {option.name !== "Products" ? (
                 <p className={``}>{option.name}</p>
               ) : (
                 <>
                   <div className="flex items-center justify-between">
                     <p>{option.name}</p>
-                    <Icon
-                      name="chevronDown"
-                      color="white"
-                    />
+                    <Icon name="chevronDown" color="white" />
                   </div>
                   {dropdown && (
                     <div className="flex flex-col mx-10 pt-6 gap-5 -mb-10">
@@ -49,7 +47,8 @@ const MobileNav = ({ closeNav }) => {
                         }`}
                         onClick={() =>
                           navigate("/fooditems", { replace: true })
-                        }>
+                        }
+                      >
                         Food Items
                       </a>
                       <a
@@ -60,7 +59,8 @@ const MobileNav = ({ closeNav }) => {
                         }`}
                         onClick={() =>
                           navigate("/nonfooditems", { replace: true })
-                        }>
+                        }
+                      >
                         Non-Food Items
                       </a>
                     </div>
