@@ -244,11 +244,11 @@ export const ITEMS = {
       ],
     },
     {
-      header: "Leather Sportswear",
+      header: "Leather Sportsgear",
       images: [
-        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/c3/cc/48/even-if-you-don-t-have.jpg?w=1200&h=900&s=1",
-        "https://clamentcustomleather.com/home/men-leather-clothes.jpg",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkn45_8XhtWDm9mRycAgTm0xKqMkKcASxleQ&s",
+        "https://cdn.shopify.com/s/files/1/2653/2386/files/Edited_Slideshow_2_1400x.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHFx2d8Wec970c2daq5paiiEX6CTs170q3s84pNByAXPikSPWmPaEJJDfaBOnR4xDU5yY&usqp=CAU",
+        "https://dailytimes.com.pk/assets/uploads/2021/12/13/6-1280x720.jpg",
       ],
     },
   ],
